@@ -124,45 +124,38 @@
 
 ## 整体架构
 
-User
+                        User
+                          │
+                          ▼
+                    FastAPI API
+                          │
+                          ▼
+                    LangGraph
+                          │
+                    Router Node
+                 ┌────────┴────────┐
+                 │                 │
+                 ▼                 ▼
 
-↓
+          Training Agent      Gear Agent
+                 │                 │
+                 ▼                 ▼
 
-FastAPI
+           Tool Calling         RAG
 
-↓
+                 │                 │
+                 ▼                 ▼
 
-LangGraph
+         Training Tools      Chroma Vector DB
 
-↓
+                 └──────┬──────────┘
+                        ▼
 
-Router
+                   DeepSeek LLM
 
-↓
+                        ▼
 
-├── Training Agent
-
-│       ↓
-
-│    Tool Calling
-
-│
-
-└── Gear Agent
-
-```
-    ↓
-
- Retriever
-
-    ↓
-
-  Chroma
-
-    ↓
-
-  DeepSeek
-```
+                 Structured Output
 
 ---
 
