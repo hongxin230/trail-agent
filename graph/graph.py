@@ -60,4 +60,9 @@ def build_graph():
             "gear": "gear"
         }
     )
+    
+    workflow.add_edge("chat", END)
+    workflow.add_edge("training", END)
+    workflow.add_edge("gear", END)
+
     return workflow.compile()
