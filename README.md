@@ -133,22 +133,22 @@
                     LangGraph
                           │
                     Router Node
-                 ┌────────┴────────┐
-                 │                 │
-                 ▼                 ▼
+                 ┌────────┴────────┐───────────────┐
+                 │                 │               │
+                 ▼                 ▼               ▼
 
-          Training Agent      Gear Agent
-                 │                 │
-                 ▼                 ▼
-
-           Tool Calling         RAG
-
-                 │                 │
-                 ▼                 ▼
-
-         Training Tools      Chroma Vector DB
-
-                 └──────┬──────────┘
+          Training Agent      Gear Agent         Chat Agent
+                 │                 │               │
+                 ▼                 ▼               │
+                                                   │
+           Tool Calling           RAG              │
+                                                   │
+                 │                 │               │
+                 ▼                 ▼               │
+                                                   │
+         Training Tools      Chroma Vector DB      │
+                                                   │
+                 └──────┬──────────┘───────────────┘
                         ▼
 
                    DeepSeek LLM
