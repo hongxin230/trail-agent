@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Hoka Speedgoat 6",
+    "category": "shoe",
+    "distance": "50k-100k",
+    "terrain": "technical",
+    "elevation": "2000m+",
+    "price": 1299,
+    "description": "长距离缓震优秀，适合技术路面和超长距离赛事"
+  },
+  {
+    "name": "Salomon Genesis",
+    "category": "shoe",
+    "distance": "50k-100k",
+    "terrain": "mountain",
+    "elevation": "3000m+",
+    "price": 1399,
+    "description": "稳定性强，适合高海拔和大爬升赛事"
+  },
+  {
+    "name": "NNormal Kjerag",
+    "category": "shoe",
+    "distance": "20k-50k",
+    "terrain": "race",
+    "elevation": "1500m+",
+    "price": 1699,
+    "description": "轻量竞速鞋，适合速度型选手"
+  },
+  {
+    "name": "Hoka Mafate Speed 4",
+    "category": "shoe",
+    "distance": "100k+",
+    "terrain": "technical",
+    "elevation": "3000m+",
+    "price": 1499,
+    "description": "超长距离耐力赛事经典选择"
+  },
+  {
+    "name": "Salomon ADV Skin 12",
+    "category": "vest",
+    "distance": "50k-100k",
+    "terrain": "all",
+    "elevation": "all",
+    "price": 1199,
+    "description": "经典越野跑背包，贴合度优秀"
+  },
+  {
+    "name": "NNormal Race Vest",
+    "category": "vest",
+    "distance": "20k-100k",
+    "terrain": "all",
+    "elevation": "all",
+    "price": 899,
+    "description": "轻量竞赛背包"
+  },
+  {
+    "name": "Black Diamond Distance 15",
+    "category": "vest",
+    "distance": "100k+",
+    "terrain": "mountain",
+    "elevation": "3000m+",
+    "price": 1299,
+    "description": "适合高山长距离比赛"
+  },
+  {
+    "name": "Leki Ultratrail FX One",
+    "category": "pole",
+    "distance": "50k+",
+    "terrain": "mountain",
+    "elevation": "2000m+",
+    "price": 1399,
+    "description": "轻量碳纤维越野跑杖"
+  },
+  {
+    "name": "Coros Apex 2 Pro",
+    "category": "watch",
+    "distance": "all",
+    "terrain": "all",
+    "elevation": "all",
+    "price": 2999,
+    "description": "超长续航越野跑手表"
+  },
+  {
+    "name": "Garmin Enduro 3",
+    "category": "watch",
+    "distance": "all",
+    "terrain": "all",
+    "elevation": "all",
+    "price": 6980,
+    "description": "旗舰级超长续航越野跑手表"
+  }
+]
